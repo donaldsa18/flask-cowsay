@@ -7,5 +7,5 @@ services:
     url: docker.io/donaldsa18/flask-cowsay:latest
   plan: free
   region: oregon
-  autoDeployTrigger: commit
+  autoDeployTrigger: checksPass
 version: "1"
