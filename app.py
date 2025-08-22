@@ -37,7 +37,7 @@ def index():
     if request.method == "POST":
         message = request.form.get("message", "")
         if message:
-            output = cowsay.get_output_string("cow", message)
+            output = cowsay.get_output_string("cow", message+"!")
     return render_template_string(HTML_TEMPLATE, output=output)
 
 if __name__ == "__main__":
