@@ -1,0 +1,11 @@
+# Exported from Render on 2025-08-22T05:01:21Z
+services:
+- type: web
+  name: flask-cowsay
+  runtime: image
+  image:
+    url: docker.io/donaldsa18/flask-cowsay:latest
+  plan: free
+  region: oregon
+  autoDeployTrigger: commit
+version: "1"
