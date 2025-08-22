@@ -1,2 +1,3 @@
 cowsay
 flask
+pytest
