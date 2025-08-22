@@ -27,3 +27,25 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
+```
+---
+
+## ▶️ Run (Dev Mode)
+
+Activate your virtual environment and start the server:
+
+```bash
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python app.py
+```
+
+---
+
+## ▶️ Tests
+
+Activate your virtual environment and start the server:
+
+```bash
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pytest
+```
