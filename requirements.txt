@@ -2,3 +2,4 @@ cowsay
 flask
 pytest
 gunicorn
+pytest-cov
